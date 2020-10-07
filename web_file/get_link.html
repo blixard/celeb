@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/get_link.css">
+    <script src="../scripts/get_link.js">
+        var loc = window.location.href
+        var val = loc.split("=")
+        var v = val[1]
+        function linkk(){
+            return v
+        }
+    </script>
+    <title>Celeb</title>
+</head>
+<body onload="get_link()">
+    <div class="container-fluid">
+        <div class="row container">
+            
+            <h1>Your link is ready</h1>
+        </div>
+
+            <div class="row container card-body">
+                <h3 class="linkc card-title"><div class="" id="link">
+
+                </div></h3>
+                <div class="card-text">copy paste the url, you just have a way to wish</div>
+            </div>
+        
+    </div>
+</body>
+</html>

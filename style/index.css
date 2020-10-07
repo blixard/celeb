@@ -1,0 +1,16 @@
+body{
+    background-image: url('../res/spark_tra.gif');
+    background-color: rgb(43, 20, 39);
+    color: azure;
+    margin-top: 10%;
+    padding: 1%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 25, 25);
+    text-align: center;
+}
