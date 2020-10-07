@@ -2,5 +2,9 @@
     background-image: url('../res/pop_tra.gif');
 }
 body{
+    background-image: url('../res/spark_tra.gif');
     background-color: black;
+    color: azure;
+    margin-top: 10%;
+    padding: 1%;
 }
